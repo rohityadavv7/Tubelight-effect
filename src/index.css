@@ -1,0 +1,13 @@
+@import "tailwindcss"
+
+
+/* .light::before{
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 0;
+    transform: scaleX(1.4) rotateX(30deg);
+    filter: blur(40px);
+    background: linear-gradient(to bottom, rgb(0,0,255), rgb(0,85,197,0.534));
+  } */
