@@ -19,7 +19,7 @@ function Hero() {
 
         <div className='mt-10 z-10  font-semibold 
         '>
-            <div className=' bg-gradient-to-b text-center text-5xl md:text-8xl from-amber-50 to-indigo-700
+            <div className='select-none bg-gradient-to-b text-center text-5xl md:text-8xl from-amber-50 to-indigo-700
             bg-clip-text text-transparent'>
                 Level up your Designs
             </div>
@@ -28,16 +28,16 @@ function Hero() {
             initial={{y:20, opacity:0}}
             animate={{y:0, opacity:1}}
             transition={{duration:0.3, ease:easeIn, delay:0.4}}
-            className='bg-clip-text  text-transparent bg-gradient-to-b from-amber-50 to-zinc-700
+            className='bg-clip-text select-none  text-transparent bg-gradient-to-b from-amber-50 to-zinc-700
             text-center md:mt-2 text-9xl font-bold'>
                 100x
             </motion.div>
 
-            <div className='text-center mt-1 md:mt-2 text-sm md:text-lg  text-neutral-400 font-thin '>
+            <div className='text-center select-none mt-1 md:mt-2 text-sm md:text-lg  text-neutral-400 font-thin '>
                 because building 10x ain't enough! so why not go <span>100x</span>
             </div>
 
-            <div className='flex text-xl font-thin text-white gap-10 items-center justify-center  mt-16'>
+            <div className='flex text-xl font-thin text-white gap-3 md:gap-10 items-center justify-center  mt-16'>
                 <button className='md:px-6 px-4 py-2  font-bold text-sm md:text-lg bg-amber-50 text-indigo-900 rounded-3xl border'>
                     Get Started
                 </button>

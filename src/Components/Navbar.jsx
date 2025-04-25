@@ -3,7 +3,7 @@ import {easeIn, motion} from "motion/react"
 
 function Navbar() {
   return (
-    <div className='w-11/12 mx-auto p-6 border-b-[0.1px] space-y-1 md:space-y-0 shadow-2xl rounded-4xl grid sm:grid-cols-1 md:grid-cols-3'>
+    <div className='w-11/12 text-center items-center justify-center mx-auto p-6 border-b-[0.1px] space-y-1 md:space-y-0 shadow-2xl rounded-4xl grid sm:grid-cols-1 md:grid-cols-3'>
 
         <div className=' mx-auto font-["Neue_Montreal"] tracking-widest text-white text-2xl'>
                 Tube<span className='text-indigo-500'>light</span>
@@ -12,9 +12,9 @@ function Navbar() {
 
         {/* TubeLight-Effect */}
         <div className=' relative pt-4 w-[50%] mx-auto md:w-full  bg-gray-950 rounded-tl-2xl rounded-tr-2xl perspective-[1000px]'>
-            <div className='absolute inset-0 bg-white mt-6 rounded-bl-2xl rounded-br-2xl'></div>
+            <div className='absolute inset-0 z-10  bg-white mt-4 pt-2 rounded-bl-2xl rounded-br-2xl'></div>
 
-            <div className='absolute mt-6 rounded-bl-2xl rounded-br-2xl inset-0 bg-white shadow-2xl blur-sm shadow-white'></div>
+            <div className='absolute mt-6 rounded-bl-2xl z-10 pt-2 rounded-br-2xl inset-0 bg-white shadow-2xl blur-sm shadow-white'></div>
 
             <motion.div 
                 initial={{opacity:0}}
